@@ -1,4 +1,5 @@
 import './Profile.css'
+import jeremy from '../images/image-jeremy.png'
 import { GlobalContext } from '../context/GlobalState'
 import { useContext } from 'react'
 
@@ -21,7 +22,7 @@ export default function Profile() {
     return (
         <div className="profile__card">
             <div className="profile__info">
-                <img src='/images/image-jeremy.png' height="100" width="100"></img>
+                <img src={jeremy} height="100" width="100"></img>
                 <div>
                     <p>Report for</p>
                     <h1>Jeremy Robson</h1>

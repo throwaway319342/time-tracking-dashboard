@@ -1,4 +1,5 @@
 import "./Play.css";
+import ellipsis from '../images/icon-ellipsis.svg'
 import useHoursDisplay from "../hooks/useHoursDisplay";
 
 
@@ -25,7 +26,7 @@ export default function Play() {
       <div className="card__info card--padding">
         <div className="card__heading">
           <p>Play</p>
-          <img src="/images/icon-ellipsis.svg" height="5" width="15"></img>
+          <img src={ellipsis} height="5" width="15"></img>
         </div>
         <div className="card__time-info">
             <div>{durationOutput}</div>
