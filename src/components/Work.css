@@ -1,0 +1,6 @@
+.card__work {
+    grid-row: 1;
+    grid-column: 2;
+    background-image: url('../../public/images/icon-work.svg');
+    background-color: hsl(15, 100%, 70%);
+}

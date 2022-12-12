@@ -1,0 +1,6 @@
+.card__study {
+    grid-row: 1;
+    grid-column: 4;
+    background-image: url('../../public/images/icon-study.svg');
+    background-color: hsl(348, 100%, 68%);
+}

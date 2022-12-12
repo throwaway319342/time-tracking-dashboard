@@ -1,0 +1,6 @@
+.card__play {
+    grid-row: 1;
+    grid-column: 3;
+    background-image: url('../../public/images/icon-play.svg');
+    background-color: hsl(195, 74%, 62%);
+}

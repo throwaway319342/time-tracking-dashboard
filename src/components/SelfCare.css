@@ -1,0 +1,6 @@
+.card__selfcare {
+    grid-row: 2;
+    grid-column: 4;
+    background-image: url('../../public/images/icon-self-care.svg');
+    background-color: hsl(43, 84%, 65%);
+}

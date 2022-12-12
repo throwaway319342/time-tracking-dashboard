@@ -1,0 +1,6 @@
+.card__social {
+    grid-row: 2;
+    grid-column: 3;
+    background-image: url('../../public/images/icon-social.svg');
+    background-color: hsl(264, 64%, 52%);
+}
